@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="normal">#ff23abb9</item>
+    <item type="drawable" name="press">#ffffffff</item>
+    <item type="drawable" name="transparent_background">#60000000</item>
+    <item type="drawable" name="transparent_bg_setting">#99000000</item>
+    <item type="drawable" name="gridview_select">#ffe8e8e8</item>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="episode_list_bg">#88000000</item>
+    <item type="drawable" name="nofocus">#ff363533</item>
+    <item type="drawable" name="ic_category_select">#ff22211f</item>
+    <item type="drawable" name="channel_list_header_font">#ffa97c43</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="red">#ffff0000</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="deeppink">#ffff1493</item>
+    <item type="drawable" name="snow">#fffffafa</item>
+    <item type="drawable" name="bisque">#ffffe4c4</item>
+    <item type="drawable" name="hotpink">#ffff69b4</item>
+    <item type="drawable" name="gainsboro">#ffdcdcdc</item>
+    <item type="drawable" name="lawngreen">#ff7cfc00</item>
+    <item type="drawable" name="qqappwall_backgroud">#00000000</item>
+</resources>

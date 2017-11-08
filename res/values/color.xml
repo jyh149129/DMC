@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ivory">#FFFFF0</color> <!-- 象牙色 -->
+    <color name="aquamarine">#7FFFD4</color> <!-- 碧绿色 -->
+   
+   
+   
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="home_btn_light">#ff23abb9</color>
+    <color name="color_A">#ffdad7d4</color>
+    <color name="color_B">#ffeeeeee</color>
+    <color name="color_C">#ff999999</color>
+    <color name="color_D">#ff817658</color>
+    <color name="color_E">#ff5aae3d</color>
+    <color name="color_F">#ffe3b308</color>
+    <color name="color_G">#ff31919c</color>
+    <color name="color_H">#ff000000</color>
+    <color name="color_I">#ff282828</color>
+    <color name="color_J">#ffeaf8d6</color>
+    <color name="color_N">#ff303030</color>
+    <color name="color_L">#ff141414</color>
+    <color name="color_M">#ffdadada</color>
+    <color name="color_O">#ff666666</color>
+    <color name="color_P">#ffdddddd</color>
+    <color name="color_Q">#ff696969</color>
+    <color name="color_R">#ff515151</color>
+    <color name="color_S">#ffff831e</color>
+    <color name="color_background">#ffeaeaea</color>
+    <color name="color_W">#ffffffff</color>
+    <color name="color_K">#ff272727</color>
+    <color name="edit_hint">#ff4b4c4d</color>
+    <color name="background_white">#ffecedef</color>
+    <color name="hot_search_text">#ff3b3b3b</color>
+    <color name="color_1">#ff80b6d5</color>
+    <color name="color_2">#ffddbb72</color>
+    <color name="color_3">#ffe28888</color>
+    <color name="color_4">#ffc1d181</color>
+    <color name="color_5">#ffe4efd5</color>
+    <color name="setting_text_color">#ffc9c9c9</color>
+    <color name="setting_tittle_color">#ff7a7a7a</color>
+    <color name="normal_text">#fff4f4f4</color>
+    <color name="golden_text">#ffd1c362</color>
+    <color name="gray_text">#ffbdbdbd</color>
+    <color name="white_text">#ffffffff</color>
+    <color name="on_text">#ffffffff</color>
+    <color name="text_gray">#ff959698</color>
+    <color name="off_text">#ff5b5b5b</color>
+    <color name="halftransparent">#dd000000</color>
+    <color name="blue_color">#ff23abb9</color>
+    <color name="color_black">#ff000000</color>
+    <color name="text_color_white">#ffefefef</color>
+    <color name="title_blue">#ff0a5cad</color>
+    <color name="gray">#ffdcdcdc</color>
+    <color name="gray_white">#ffe2e2e2</color>
+
+</resources>

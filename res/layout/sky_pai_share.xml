@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/text_color_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/title_blue" android:layout_width="fill_parent" android:layout_height="@dimen/sky_title_height">
+        <ImageView android:id="@+id/back_button" android:clickable="true" android:layout_width="50.0dip" android:layout_height="fill_parent" android:src="@drawable/slide_menu_selector" android:scaleType="centerInside" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/encode_view" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/remote_title" android:layout_toRightOf="@+id/back_button" />
+    </RelativeLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:gravity="center" android:id="@+id/type_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/thumb_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="120.0dip">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip"
+            android:layout_marginLeft="20dp"  android:layout_marginRight="20dp">
+            <ImageView android:layout_gravity="center" android:id="@+id/btn_prev" android:layout_width="wrap_content" android:layout_height="100dp" android:src="@drawable/left" android:layout_weight="1.0" 
+                android:scaleType="fitXY"/>
+            <RelativeLayout android:layout_gravity="center" android:layout_width="100.0dip" android:layout_height="300.0dip">
+                <ImageView android:gravity="center" android:id="@+id/top" android:background="@drawable/top" android:layout_width="fill_parent" android:layout_height="100dp" android:layout_alignParentTop="true"/>
+                <ImageView android:gravity="center" android:id="@+id/buttom" android:background="@drawable/buttom" android:layout_width="fill_parent" android:layout_height="100dp" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <ImageView android:layout_gravity="center" android:id="@+id/btn_next" android:layout_width="wrap_content" android:layout_height="100dp" android:src="@drawable/right" android:layout_weight="1.0" 
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/image_controller" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip">
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@+id/device_list" android:background="@drawable/w_list_pressed_holo_light" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="100.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="90.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/title_blue" android:gravity="center_vertical" android:id="@+id/share_prompt" android:background="@drawable/devices_bg" android:layout_width="200.0dip" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:text="@string/device_searching" android:singleLine="true" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@+id/push_end_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip">
+            <ImageView android:layout_width="40.0dip" android:layout_height="wrap_content" android:src="@drawable/push_end" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/title_blue" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/push_end" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/controller" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textColor="@color/title_blue" android:gravity="center" android:id="@+id/mediaInfo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" />
+            <SeekBar android:layout_gravity="center" android:id="@+id/progressSeekBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:max="100" />
+            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="@color/android:color/white" android:id="@+id/current_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_0" />
+                <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/android:color/white" android:id="@+id/total_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <ImageView android:id="@+id/stop_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stop_button" />
+                <ImageView android:layout_gravity="center" android:id="@+id/vol_down_button" android:layout_width="wrap_content" android:layout_height="50.0dip" android:src="@drawable/vol_down_" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center" android:id="@+id/fr_button" android:layout_width="wrap_content" android:layout_height="50.0dip" android:src="@drawable/fr" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center" android:id="@+id/play_pause_button" android:layout_width="wrap_content" android:layout_height="50.0dip" android:src="@drawable/remote_play" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center" android:id="@+id/ff_button" android:layout_width="wrap_content" android:layout_height="50.0dip" android:src="@drawable/ff" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center" android:id="@+id/vol_up_button" android:layout_width="wrap_content" android:layout_height="50.0dip" android:src="@drawable/vol_up_" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@drawable/press" android:gravity="center" android:id="@+id/share_btn_refresh" android:background="@drawable/home_setting_btn" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_refresh" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@drawable/press" android:gravity="center" android:id="@+id/share_btn_stop" android:background="@drawable/home_setting_btn" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_stop" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
